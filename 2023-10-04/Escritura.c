@@ -4,7 +4,7 @@
 int main()
 {
     FILE *fp;
-    char *fnombre = "escritura.txt";
+    char *fnombre = "salida.txt";
 
     fp = fopen(fnombre, "w");
     fprintf(fp, "%d %s %s", 20200408, "nombre", "apellido");
