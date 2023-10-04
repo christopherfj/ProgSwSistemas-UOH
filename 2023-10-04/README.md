@@ -3,8 +3,7 @@ Repaso de C
 
 Operadores, Casting, Strings, Punteros
 
-<br/> <br/>
-
+<br/> 
 ```
 gcc -o executable <filename.c>
 ```
