@@ -19,7 +19,9 @@ int main()
         cadena2[i] = cadena1[i];
     }
     cadena2[i] = '\0';
-    printf("%s", cadena2);
+    printf("%s\n", cadena2);
+
+    printf("Largo: %d", strlen(cadena1));
 
     return 0;
 }

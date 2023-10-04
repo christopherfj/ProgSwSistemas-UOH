@@ -10,8 +10,7 @@ int main()
     printf("Bytes: %d\n", sizeof(entero));
     printf("Direccion: %d\n", &entero);
     printf("Min: %d, max: %d\n", INT_MIN, INT_MAX );
-    printf("Min: %d, max: %d\n", 0, UINT_MAX );
-    printf("Min: %d, max: %u\n", 0, UINT_MAX );
+    printf("Min: %u, max: %u\n", 0, UINT_MAX );
 
     return 0;
 }
